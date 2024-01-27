@@ -16,14 +16,5 @@ const connectDB = async ()=>{
     }
 }
 
-// const connectDB = ()=>{
-//     mongoose.connect(`${process.env.MONGODB_URL}`)
-//  .then(()=>{
-//     console.log("MongoDB connected!!!");
-//     app.listen(process.env.PORT,()=>{
-//         console.log("node server is running...");
-//     })
-//   }).catch(e => console.log(e))
-// }
 
 export default connectDB;
