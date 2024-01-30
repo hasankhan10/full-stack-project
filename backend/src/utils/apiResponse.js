@@ -6,3 +6,5 @@ class apiResponse {
         this.statusCode = statusCode
     }
 }
+
+export {apiResponse}
